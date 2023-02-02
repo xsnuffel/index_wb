@@ -212,16 +212,16 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "İlk Projeler",
+  subtitle: "OLUŞTURDUĞUM VE TASARLADIĞIM BAZI PROJELERİM",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Saaya",
+      projectDesc: "LOGO TASARIMI",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "İnternet Sayfasını Ziyaret Et",
           url: "http://saayahealth.com/"
         }
         //  you can add extra buttons here.
@@ -230,10 +230,10 @@ const bigProjects = {
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "SSL LİSANS AYARLAMASI",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "İnternet Sayfasını Ziyaret Et",
           url: "http://nextu.se/"
         }
       ]
@@ -246,7 +246,7 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Bir Kaç Etkinlik Ve Başarılar 🏆 "),
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
@@ -254,7 +254,7 @@ const achievementSection = {
     {
       title: "Google Code-In Finalist",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -309,7 +309,7 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
@@ -324,7 +324,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
