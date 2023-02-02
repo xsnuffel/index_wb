@@ -33,7 +33,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
+  github: "https://github.com/SooSnuffel",
   linkedin: "",
   gmail: "eymen166172@gmail.com",
   gitlab: "",
@@ -48,15 +48,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Ne Yaparım?",
+  subTitle: "HER TECH STACK'I KEŞFETMEK İSTEYEN ÇILGIN FULL STACK GELİŞTİRİCİSİ",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Web ve mobil uygulamalarınız için oldukça etkileşimli Ön uç / Kullanıcı Arayüzleri geliştirin"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Normal ve SPA S'de Aşamalı Web Uygulamaları (PWA)"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Firebase/ AWS / Digital Ocean gibi üçüncü taraf hizmetlerin entegrasyonu"
     )
   ],
 
@@ -123,7 +123,7 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "Harvard University",
@@ -158,11 +158,11 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "100%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "40%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -171,7 +171,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -206,7 +206,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
